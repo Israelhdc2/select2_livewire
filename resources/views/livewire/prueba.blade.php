@@ -16,6 +16,9 @@
     <script>
         document.addEventListener('livewire:load', function(){
             $(".select2").select2();
+            $(".select2").on('change', function(){
+                @this.set('pais', this.value);
+            });
         });
     </script>
 
