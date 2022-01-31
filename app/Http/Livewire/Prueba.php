@@ -7,7 +7,7 @@ use Livewire\Component;
 class Prueba extends Component
 {
 
-    public $pais, $ciudad;
+    public $pais="AR", $ciudad;
 
     public function render()
     {

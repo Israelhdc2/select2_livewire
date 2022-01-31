@@ -1,5 +1,8 @@
 <div>
     {{-- The Master doesn't talk, he acts. --}}
+
+    {{$pais}}
+
     <div class="mb-4" wire:ignore>
         <select class="select2" wire:model="pais">
             <option value="PE">Peru</option>
